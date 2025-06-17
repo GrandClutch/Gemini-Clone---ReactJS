@@ -1,0 +1,116 @@
+.settings {
+  font-size: 30px;
+  padding: 20px;
+  font-weight: 500;
+  width: 100vh;
+}
+.settings .overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  background-color: #f0f4f9;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  & img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+.personal {
+  display: flex;
+  gap: 10px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reset-password {
+  background: -webkit-linear-gradient(16deg, #ca1779, #ac0fb4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  &:hover {
+    background: -webkit-linear-gradient(16deg, #34b114, #0aafac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* ⬅️ Adds space between the two boxes */
+  margin: 20px;
+}
+hr {
+  margin: 10px auto;
+}
+
+.personal-detail,
+.academia {
+  background-color: #f0f4f9;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-weight: 500;
+}
+.details-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.personal-detail-1 {
+  margin-top: 10px;
+  display: flex;
+  gap: 50px;
+  text-align: start;
+}
+.personal-detail-1 span {
+  font-size: 14px;
+  font-weight: 300;
+}
+.gender,
+.blood,
+.dob,
+.reg-email {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gender-blood,
+.dob-email {
+  line-height: 2;
+}
+.academia-1 {
+  margin-top: 10px;
+  display: flex;
+  gap: 50px;
+  text-align: start;
+}
+.academia-1 span {
+  font-size: 14px;
+  font-weight: 300;
+}
+.high-school,
+.uni,
+.major,
+.year {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.school-uni,
+.major-year {
+  line-height: 2;
+}
